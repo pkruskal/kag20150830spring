@@ -7,7 +7,7 @@ import pandas as pd
 # List the files we have available to work with
 print("> ls ../input")
 from subprocess import check_output
-print(check_output(["ls", "./input"]).decode("utf8"))
+print(check_output(["ls", "/input"]).decode("utf8"))
 
 # Read train data file:
 train = pd.read_csv("./input/train.csv")
